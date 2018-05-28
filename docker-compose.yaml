@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+
+  vdi:
+    image: teradici_cm_sg
+    restart: always
+    ports:
+            - 443:443
